@@ -1,0 +1,5 @@
+1. A good user interace and user experience for all use cases.
+2.Ensure that data is stored securely.
+3.The system should perform well under expected user load.
+4.Each use case is functional.
+5.Good feedback machanism for each user case.
