@@ -38,45 +38,46 @@ Built with **Java Spring Boot**, **JSP (Java Server Pages)**, **HTML/CSS**, and 
 
 1. **Download or Clone the Repository**
 
-   Extract the `.zip` or clone via Git:
-git clone https://github.com/issaa9/IBMSkillsBuildWebapp.git
-
+   Extract the `.zip` file or clone via Git:
+   ```bash
+   git clone https://github.com/issaa9/IBMSkillsBuildWebapp.git
 
 2. **Open in a Suitable IDE**
 
-e.g. IntelliJ IDEA, Eclipse, or Spring Tool Suite.
+   e.g. IntelliJ IDEA, Eclipse, or Spring Tool Suite.
 
 3. **Create the MySQL Database**
 
-Run the following SQL statement to initialise your database: ```sql
-CREATE DATABASE co2201group04;
+   Run the following SQL statement to initialise your database: 
+   ```sql
+   CREATE DATABASE co2201group04;
 
 4. **Set Environment Variables**
 
-In your IDE or system environment, define the following variables:
+   In your IDE or system environment, define the following variables:
+   ```markup
+   DB_USER=yourusername
+   DB_PASSWORD=yourpassword
+   ```
 
-DB_USER=yourusername
-DB_PASSWORD=yourpassword
-
-Default fallback values exist (defaultuser, defaultpass) to prevent errors if none are supplied.
+   Default fallback values exist (defaultuser, defaultpass) to prevent errors if none are supplied.
 
 5. **Build and Run**
 
-Build using Gradle and run the main application class:
+   Build using Gradle and run the main application class:
 
-FinalProjectNewApplication
+   FinalProjectNewApplication
 
-Once started, the database schema will be automatically created (spring.jpa.hibernate.ddl-auto=create-drop).
+   Once started, the database schema will be automatically created (spring.jpa.hibernate.ddl-auto=create-drop).
 
 6. **Access the Application**
 
-Visit http://localhost:8080/
- to begin.
-
+   Visit http://localhost:8080/
+   to begin.
 ---
 
 ## Project Details
-
+```
 Key Features:
 
 -User registration, authentication, and login (with session handling)
@@ -100,6 +101,7 @@ Database Behaviour:
 
 -Automatically creates and drops the schema on each run (for testing/demo purposes).
 -Entities include User, Course, CompletedCourse, and Badge with JPA mapping.
+```
 
 ## File Overview
 
@@ -161,6 +163,7 @@ This version represents the definitive, complete build of the IBM SkillsBuild Co
 
 ## Folder Structure
 
+```
 IBMSkillsBuildWebapp/
 │
 ├── src/
@@ -190,6 +193,7 @@ IBMSkillsBuildWebapp/
 ├── gradlew / gradlew.bat / gradle/
 ├── .gitignore
 └── README.md
+```
 
 ## Project Timeline Context
 
